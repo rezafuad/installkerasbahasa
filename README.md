@@ -30,7 +30,7 @@ Anda dianjurkan untuk menggunakan Windows Power Shell untuk mengeksekusi dan mel
 Buka Windows Power Shell,
 
 <p>
-  <img src="https://raw.githubusercontent.com/rezafuad/installkerasbahasa/master/recom-powershell.png" width=25% />
+  <img src="https://raw.githubusercontent.com/rezafuad/installkerasbahasa/master/recom-powershell.png" width=10% />
 </p>
 
 Update software core dari Anaconda dan paket-paket utamanya dengan menggunakan perintah berikut.
