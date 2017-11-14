@@ -24,14 +24,7 @@ Jalankan file yang telah diunduh dari website Anaconda dan ikut seluruh instruks
 
 ## 3. Update Anaconda
 
-Karena Anaconda merupakan console based application, maka seluruh perintah administrasi akan dilakukan dengan menggunakan command prompt. 
-Windows 10 menyediakan command prompt yang lebih powerful yaitu Windows Power Shell.
-Anda dianjurkan untuk menggunakan Windows Power Shell untuk mengeksekusi dan melakukan administrasi Anaconda.
-Buka Windows Power Shell,
-
-<p>
-  <img src="https://raw.githubusercontent.com/rezafuad/installkerasbahasa/master/recom-powershell.png" width=10% />
-</p>
+Buka Anaconda terminal dari Menu.
 
 Update software core dari Anaconda dan paket-paket utamanya dengan menggunakan perintah berikut.
 
@@ -39,4 +32,29 @@ Update software core dari Anaconda dan paket-paket utamanya dengan menggunakan p
 conda update conda
 conda update --all
 ```
+
+## 4. Install CUDA dan CuDNN
+
+Jika Anda akan menggunakan GPU sebagai media komputasi, maka Anda perlu mengunduh CUDA Toolkit dan CuDNN dari NVIDIA website.
+Saat ini TensorFlow hanya mensupport NVIDIA CUDA untuk GPU computing library.
+
+Link Dowload: http://developer.nvidia.com <br/>
+Catatan: Anda harus membuat account NVIDIA untuk bisa mengunduh CUDA dan CuDNN.
+
+Untuk lebih jelas silahkan melihat pada halaman TensorFlow berikut:<br/>
+https://www.tensorflow.org/install/install_windows
+
+
+## 5. Setting Anaconda Environment
+
+Buat Anaconda Enviroment baru dengan
+
+```Command Prompt
+conda create -n keras-tensorflow python=3.6
+```
+
+
+
+
+
 
