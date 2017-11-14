@@ -10,7 +10,7 @@ Berikut merupakan cara instalasi Keras Deep Learning Framework dengan backend Te
 
 Download file instalasi Anaconda. Saya menggunakan Anaconda versi 5.0.1
 
-<p align="center">
+<p>
   <img src="https://raw.githubusercontent.com/rezafuad/installkerasbahasa/master/anaconda-download.png" width=50% />
 </p>
 
@@ -18,7 +18,7 @@ Download file instalasi Anaconda. Saya menggunakan Anaconda versi 5.0.1
 
 Jalankan file yang telah diunduh dari website Anaconda dan ikut seluruh instruksi yang diminta.
 
-<p align="center">
+<p>
   <img src="https://raw.githubusercontent.com/rezafuad/installkerasbahasa/master/anaconda-install.png" width=25% />
 </p>
 
@@ -29,7 +29,9 @@ Windows 10 menyediakan command prompt yang lebih powerful yaitu Windows Power Sh
 Anda dianjurkan untuk menggunakan Windows Power Shell untuk mengeksekusi dan melakukan administrasi Anaconda.
 Buka Windows Power Shell,
 
-
+<p>
+  <img src="https://raw.githubusercontent.com/rezafuad/installkerasbahasa/master/recom-powershell.png" width=25% />
+</p>
 
 Update software core dari Anaconda dan paket-paket utamanya dengan menggunakan perintah berikut.
 
