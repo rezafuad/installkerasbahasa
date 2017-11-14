@@ -22,4 +22,19 @@ Jalankan file yang telah diunduh dari website Anaconda dan ikut seluruh instruks
   <img src="https://raw.githubusercontent.com/rezafuad/installkerasbahasa/master/anaconda-install.png" width=25% />
 </p>
 
-## 3. Setting environment dari python dengan anaconda dan melakukan instalasi untuk paket-paket python yang dibutuhkan.
+## 3. Update Anaconda
+
+Karena Anaconda merupakan console based application, maka seluruh perintah administrasi akan dilakukan dengan menggunakan command prompt. 
+Windows 10 menyediakan command prompt yang lebih powerful yaitu Windows Power Shell.
+Anda dianjurkan untuk menggunakan Windows Power Shell untuk mengeksekusi dan melakukan administrasi Anaconda.
+Buka Windows Power Shell,
+
+
+
+Update software core dari Anaconda dan paket-paket utamanya dengan menggunakan perintah berikut.
+
+```Command Prompt
+conda update conda
+conda update --all
+```
+
