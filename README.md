@@ -1,6 +1,10 @@
-# Cara Install Keras - Deep Learning Framework dengan backend TensorFlow
+# Cara Install Keras Deep Learning Framework Dengan Backend TensorFlow
 
-Berikut merupakan cara instalasi Keras Deep Learning Framework dengan backend TensorFlow
+Mengapa Anaconda? Bagi Anda yang menggunakan Linux, saya sarankan Anda tidak menggunakan Anaconda tetapi langsung melakukan instalasi paket-paket python yang dibutuhkan. Tetapi, pada sistem operasi windows, proses instalasi manual cukup membingungkan sehingga salah satu solusinya adalah dengan menggunakan Anaconda.
+
+Salah satu keunggulan Anaconda adalah kita dapat membuat beberapa lingkungan virtual yang saling independen sehingga tidak mempengaruhi sistem windows itu sendiri. Paket-paket akan di install pada lingkungan virtual Anaconda.
+
+Berikut merupakan cara instalasi Keras Deep Learning Framework dengan backend TensorFlow pada sistem operasi windows,
 
 ## 1. Download Anaconda (version stabil adalah version 5.0.1)
 
