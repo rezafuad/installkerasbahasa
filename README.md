@@ -9,3 +9,9 @@ Berikut merupakan cara instalasi Keras Deep Learning Framework dengan backend Te
 </p>
 
 2. Install Anaconda
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/rezafuad/installkerasbahasa/master/anaconda-install.png" width=50% />
+</p>
+
+3. Setting environment dari python dengan anaconda dan melakukan instalasi untuk paket-paket python yang dibutuhkan.
