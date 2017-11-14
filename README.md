@@ -47,14 +47,36 @@ https://www.tensorflow.org/install/install_windows
 
 ## 5. Setting Anaconda Environment
 
-Buat Anaconda Enviroment baru dengan
+Buat Anaconda Enviroment baru dengan menggunakan perintah berikut
 
 ```Command Prompt
-conda create -n keras-tensorflow python=3.6
+conda create -n keras-tensorflow python=3.6 numpy scipy matplotlib spyder
+```
+## 6. Install TensorFlow dan Keras
+
+Install tensorflow dengan menggunakan perintah berikut ini
+
+```Command Prompt
+pip install tensorflow
 ```
 
+Atau kalau dengan GPU
 
+```Command Prompt
+pip install tensorflow-gpu
+```
 
+## 7. Testing Keras
 
+Testing instalasi dengan mengimport keras pada ipython.
 
+```Command Prompt
+ipython
+```
+Lalu import Keras dengan menggunakan perintah berikut,
 
+```Command Prompt
+import keras
+```
+
+Jika berhasil tanpa error, maka akan muncul tulisan "Using TensorFlow backend.".
