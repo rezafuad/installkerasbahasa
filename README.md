@@ -68,9 +68,10 @@ pip install tensorflow-gpu
 
 ## 7. Testing Keras
 
-Testing instalasi dengan mengimport keras pada ipython.
+Testing instalasi dengan mengaktifkan lingkungan virtual keras-tensorflow dan mengimport keras pada ipython.
 
 ```Command Prompt
+activate keras-tensorflow
 ipython
 ```
 Lalu import Keras dengan menggunakan perintah berikut,
